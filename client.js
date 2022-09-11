@@ -1,4 +1,4 @@
-var stripe = Stripe('pk_test_51JcDZ8FCU9HJc0siITqNZmr7Q0mWZKz9FWFh89G8REzHPV2IFtEvdzlai7Ia8wGbXM6FgW5ZxJhCm9xTtS7iKDCB00e65TKIIN', {
+var stripe = Stripe('pk_test_51LggmoHGmMHAn17p6fEjTt37MdMe14aN4YzQlHTAoc7iAeI33biRs3aHtbMP4PmuCnO5eQgnqiq8f7Al3xTbPUNC00TT0shzr4', {
   apiVersion: "2022-08-01",
 });
 
