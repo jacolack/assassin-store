@@ -7,6 +7,10 @@
     body {
       background-color: #400301;
     }
+
+    #payment-request-button {
+      margin-bottom: 17px;
+    }
   </style>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -34,7 +38,7 @@
     function initPayPalButton() {
       paypal.Buttons({
         style: {
-          shape: 'pill',
+          shape: 'rect',
           color: 'gold',
           layout: 'vertical',
           label: 'paypal',
