@@ -19,6 +19,9 @@ var paymentRequest = stripe.paymentRequest({
 var elements = stripe.elements();
 var prButton = elements.create('paymentRequestButton', {
   paymentRequest: paymentRequest,
+  style: {
+    height: '45px'
+  },
 });
 
 // Check the availability of the Payment Request API first.
